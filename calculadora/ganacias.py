@@ -1,0 +1,5 @@
+name = input("What's your name?")
+sales = int(input("How much did you sell?"))
+commissions = float(input("How much % did you commission?"))
+profits = round(sales * commissions / 100)
+print("Hi {} your commission is {}  and your profit is {}".format(name,commissions,  profits))
